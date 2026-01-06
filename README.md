@@ -45,8 +45,12 @@ rskindustries-website/
 ├── products.html       # Products page
 ├── about.html          # About Us page
 ├── contact.html        # Contact page
-├── styles.css          # Main stylesheet
-├── script.js           # JavaScript functionality
+├── css/
+│   └── styles.css      # Main stylesheet
+├── js/
+│   └── script.js       # JavaScript functionality
+├── assets/
+│   └── images/         # Images and logos
 └── README.md           # Project documentation
 ```
 
@@ -90,7 +94,7 @@ Add new products in `products.html` by duplicating the product card structure:
 ```
 
 ### Changing Colors
-Modify CSS variables in `styles.css`:
+Modify CSS variables in `css/styles.css`:
 
 ```css
 :root {
@@ -105,7 +109,7 @@ Modify CSS variables in `styles.css`:
 
 The contact form currently shows a success message on submission. To integrate with a backend:
 
-1. Update the form submission handler in `script.js`
+1. Update the form submission handler in `js/script.js`
 2. Replace the simulated submission with an actual API call
 3. Add server-side validation and email sending functionality
 
