@@ -26,16 +26,7 @@ RSK Industries is a wholesale marketing & distribution company dealing in:
   - Hover effects and animations
   - Scroll-triggered animations
 
-## Design Guidelines
 
-### Color Scheme
-- **Primary**: Dark Blue (#1a4d6e) / Green (#2d8659)
-- **Secondary**: White (#ffffff) / Light Grey (#f5f5f5)
-- **Accent**: Green (#4caf50) for eco-friendly feel
-
-### Typography
-- **Headings**: Poppins (Google Fonts)
-- **Body**: Inter (Google Fonts)
 
 ## File Structure
 
